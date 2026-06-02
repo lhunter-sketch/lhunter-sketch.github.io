@@ -1,95 +1,82 @@
-/* --------------------------- LOGO ---------------------- */
-#logo{
-    color:#E88E86;
-    font-family: "Gaegu";
-        font-size:35px;
-    padding: 0px;
-}
+<!doctype html>
+<html>
+<head>
+    <title>Note-able | Home</title>
+    <link rel="stylesheet" type="text/css" href="post_1.css">
 
-/* ------------------------------ NAV BAR ------------------------------ */
-/* -------- tabs together (group); formatting -------- */
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="HTML"/>
 
-/* -------- nav bar right alignment -------- */
-ul li{
-    float: right;
-}
-/* -------- indiv tab group styling -------- */
-ul li a{
-    color:#353535;
-    font-family: "Commissioner";
-        font-size: 16px;
-    text-align: center;
-    padding-left: 50px;
-    text-decoration: none;
-}
+    <!-- GAEGU -- TITLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
 
-ul li a:hover{
-    color:#E88E86;
-    text-decoration:underline;
-    font-weight:bolder;
-}
-/* -------- nav bar container -------- */
-#nav_bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 182px;
-    border-bottom: 1px solid #E88E86;
-}
+    <!-- BODY FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
 
-/* ------------------------------  BODY ------------------------------ */
-.back_button{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    padding: 30px 182px;
-}
+</head>
+<body>
+    <nav id="nav_bar">
+            <div id="logo"> Note-able </div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
 
-#page_header{
-    text-align:center;
-    margin: 0px;
-    padding-top: 70px;
-    color:#353535;
-    font-size:35px;
-}
 
-body{
-    margin:0px;
-    padding:0px;
-    color:#353535; 
-    font-family: "Commissioner";
-        font-weight: normal;
-        font-size: 16px;
-    background-color:#fefefe;
-}
-
-.about_blurb{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 500px;
-    margin: auto;
-    justify-content: center;
-    padding-top: 35px;
-    padding-bottom: 100px;
-}
-
-#ab_last_line{
-    padding-bottom: 105px;
-}
-
-/* ------------------------------ FOOTER ------------------------------ */
-#footer_stuff{
-    background-color: #eecbc8;
-    padding:30px 182px;
-}
-
-#copyright{
-    font-family:"Commissioner";
-        font-size:18px;
-    text-align:center;
-}
+    <main class="container">
+        <a class="back_button" href="index.html"> < Back to Home</a>
+        <div class="post_info">
+            <h2 id="page_header">My Top Stationery Recommendations of 2026</h2>
+            <p id="post_date">Posted: June 5, 2026</p>
+            <p id="para_blurb"> If you're anything like me, you have go-to stationery products that you can always count on to <br> get you through your daily analog tasks. Check out my top 5 product choices below.</p>
+        </div>
+        <div class="para_content">
+            <div class="product_list">
+                <h2>
+                    <ol>
+                        <li>Leuchtturm1917 Academic Planner</li>
+                            <p id="prod_highlight"> Monthly, weekly, AND hourly views; lots of note space; portable</p>
+                            <p id="prod_desc">
+                                I use this product every day; it’s the only way I remember what I need to get done. The pages are nice and thin, but don’t lead to pen bleeds. It just takes a few seconds to dry if you’re using gel pens in it. You can write with pencils, pens, and highlighters, so you can colour code your week (absolute game-changer!).</p>
+                            <p id="prod_desc">If you’re looking beyond your daily to-do’s, it also comes with a built-in project planner, holiday tracker, secret pocket for stashing away loose papers, yearly overview, and blank pages at the back if you need to make some quick jot notes. It also comes with stickers(!!) for archiving it later and a bonus book for storing your contacts’ information. </p>
+                            <p id="prod_desc_end">If you want a different style of planner, you can get ones with just the weekly view, just monthly, and so on! They’re designed for different needs, so you can choose what works best for you.</p>
+                        <li>MUJI Pens</li>
+                            <p id="prod_highlight"> Various styles & colours to choose from; refillable</p>
+                            <p id="prod_desc">These pens are my favourite for so many reasons. However, the quality is top tier.</p>
+                            <p id="prod_desc">These pens last a long time—if you take care of them ofc—and are easy to refill when they run dry. You can also mix and match the refills and put them in different pen shells (i.e. clickable or cap pen containers). </p>
+                            <p id="prod_desc">There’s a MUJI pen for anyone, it just might take some time to discover what works for you. Want something comfortable to use? Try the pens with the soft grips. Don’t want to worry about caps? Try the clickable versions. Want something you can throw in a small bag? There’s mini pens too!!</p>
+                            <p id="prod_desc_end">Take your time to try them out. When you find what you like, just keep refilling them. </p>
+                        <li>Faber-Castell Textliners</li>
+                            <p id="prod_highlight">No bleed; cute un-boring colours</p>
+                            <p id="prod_desc">Typically, highlighters come in a limited number of colours and leak through my paper. Faber-Castell offers a variety of highlighter marker sets that match any vibe. </p>
+                            <p id="prod_desc">These highlighters are lightweight so they don’t bleed through my paper and don’t smudge. They are also transparent enough that I can see what I wrote underneath but are opaque enough so the colour comes through nicely. </p>
+                            <p id="prod_desc_end">I use these highlighters for school notes and they do a great job at organising my notebook pages while making them look good at the same time. </p>
+                        <li>MUJI Notebooks</li>
+                            <p id="prod_highlight">Variety of shapes & sizes; lightweight & portable</p>
+                            <p id="prod_desc">This is the 2nd MUJI item on my list (I know). However, it’s for a good reason.</p>
+                            <p id="prod_desc">MUJI makes reliable notebooks for any occasion. Use them for brainstorming, work and school notes, journaling, and more! They have different styles that fit different situations and writing preferences!</p>
+                            <p id="prod_desc">If you’ve ever had to rest your hand on the spiral rings of your notebooks when taking notes, MUJI has some great alternatives. Try out the spiral-less designs that lie flat for a more comfortable writing experience. </p>
+                            <p id="prod_desc_end">If you need different sized notebooks for different occasions, they have compact A7 notebooks with pen loops. They also offer lined notebooks or ones with grids. There’s a notebook for everyone!</p>
+                        <li>Salty Nutty Sticky Note Pads</li>
+                            <p id="prod_highlight">Goofy, fun designs</p>
+                            <p id="prod_desc">Writing reminders doesn’t have to be boring and uninspiring. If you’re familiar with the classic square sticky note pad, here’s something a little extra. These sticky notes add some flair to notes and can be fun just to look at. </p>
+                            <p id="prod_desc">These products—or any sticky notes with unique shapes and designs—made leaving notes more fun and can make someone (or yourself) smile. </p>
+                            <p id="prod_desc_end">Although this is a relatively simple product, I love using these for writing down small lists, writing messages for others, and decorating my desk. Perhaps they’ll add a bit of fun to your day as well. </p>
+                    </ol>
+                </h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer_stuff">
+            <p id="copyright">&copy; 2026 Got the Memo.</p>
+        </div>
+    </footer>
+</body>
