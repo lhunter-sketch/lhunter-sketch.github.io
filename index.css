@@ -47,8 +47,9 @@ h1{
     text-align:center;
     margin: 0px;
     padding-top: 100px;
-    color:#353535;
-    font-size:45px;
+    /* color:#353535; */
+    color:#E88E86;
+    font-size:52px;
 }
 
 #intro_blurb{
@@ -56,13 +57,13 @@ h1{
 }
 
 #subheading{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #main_blurb{
     text-align: center;
     font-size: 16px;
-    padding-top: 25px;
+    padding-top: 35px;
     padding-bottom: 35px;
 }
 
@@ -90,19 +91,26 @@ body{
     background-color:#fefefe;
 }
 /* ------------------------------ GALLERY ------------------------------ */
+/* -------- entire gallery container -------- */
+.gallery_section{
+    padding-top:75px;
+}
+
+/* -------- gallery header -------- */
 #gallery_header{
     text-align: center;
     font-size: 28px;
     padding: 35px;
-    background-color:#eecbc882;
+    background-color:#e88e86a7;
 }
-/* -------- gallery container -------- */
+/* -------- gallery item container -------- */
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1556px;
+    max-width: 1000px;
     margin: auto;
     justify-content: center;
+    padding-top:35px;
     padding-bottom: 100px;
 }
 
